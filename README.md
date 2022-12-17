@@ -4,8 +4,6 @@
 * Call API bằng Retrofit.
 * Sử dụng Rx trong xử lý bất đồng đồng bộ.
 #### Tính năng:
-* App mua sắm viết trên ngôn ngữ java.
-* Xem list những sản phẩm đang hot.
 * Quản lí giỏ hàng:
    * Thêm, xoá sản phẩm vào giỏ hàng.
    * Chỉnh sửa số lượng sản phẩm.
