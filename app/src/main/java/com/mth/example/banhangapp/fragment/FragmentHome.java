@@ -143,42 +143,6 @@ public class FragmentHome extends Fragment {
 
     private void actionViewFlipper() {
         progressDialog.show();
-//        ApiUtils.getData().getQuangCao()
-//                .subscribeOn(Schedulers.io())
-//                .observeOn(AndroidSchedulers.mainThread())
-//                .subscribe(new Observer<List<QuangCao>>() {
-//                    @Override
-//                    public void onSubscribe(@io.reactivex.rxjava3.annotations.NonNull Disposable d) {
-//                        disposable = d;
-//                    }
-//
-//                    @Override
-//                    public void onNext(@io.reactivex.rxjava3.annotations.NonNull List<QuangCao> quangCaos) {
-//                        arrQuangCao = quangCaos;
-//                    }
-//
-//                    @Override
-//                    public void onError(@io.reactivex.rxjava3.annotations.NonNull Throwable e) {
-//                        Toast.makeText(getActivity(), getResources().getString(R.string.txt_ketnoimang), Toast.LENGTH_SHORT).show();
-//                    }
-//
-//                    @Override
-//                    public void onComplete() {
-//                        for (QuangCao quangCao :
-//                                arrQuangCao) {
-//                            ImageView imageView = new ImageView(getActivity());
-//                            Glide.with(getActivity()).load(quangCao.getAnh()).into(imageView);
-//                            imageView.setScaleType(ImageView.ScaleType.FIT_XY);
-//                            viewFlipper.addView(imageView);
-//                        }
-//                        viewFlipper.setFlipInterval(3000);
-//                        viewFlipper.setAutoStart(true);
-//                        Animation slide_in = AnimationUtils.loadAnimation(getActivity(), R.anim.anim_in_right);
-//                        Animation slide_out = AnimationUtils.loadAnimation(getActivity(), R.anim.anim_out_right);
-//                        viewFlipper.setInAnimation(slide_in);
-//                        viewFlipper.setOutAnimation(slide_out);
-//                    }
-//                });
         List listQuangCao = new ArrayList<String>();
         listQuangCao.add("http://channel.mediacdn.vn/thumb_w/640/2019/1/14/photo-1-1547460160838884501380.jpg?fbclid=IwAR3EYD9Hfx5-NtCT1FKnzYHlJhwgnmfGb0GORyB4yEm_y9dgN2y4h28rzpQ");
         listQuangCao.add("https://img.global.news.samsung.com/vn/wp-content/uploads/2021/05/KV-final-12-1024x666.jpg");
